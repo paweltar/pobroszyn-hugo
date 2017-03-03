@@ -1,8 +1,8 @@
 baseurl = "/"
 languageCode = "pl"
-title = "Strata"
+title = "Schronisko w Wąworkowie"
 theme = "hugo-strata-theme"
-disqusShortname = "spf13"
+disqusShortname = ""
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
@@ -11,8 +11,8 @@ paginate = 10
 [params]
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Your name"
-	description = "Describe your website"
+	name = "Schronisko w Wąworkowie"
+	description = "Działamy od 1996 roku. Pomagamy w trudnych sytuacjach życiowych."
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
