@@ -21,12 +21,11 @@ paginate = 10
 	custom_js   = []
 	custom_css  = []
 
-
 	[params.sidebar]
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**Schronisko dla Kobiet i Mężczyzn**<br>w Wąworkowie pod Opatowem<br><br>**tel. 888 210 924**<br>**27-500 Opatów**<br>**Wąworków 34**"
+		bio = "**Schronisko dla Kobiet i Mężczyzn**<br> w Wąworkowie pod Opatowem<br><br> **tel. 888 210 924**<br> **27-500 Opatów**<br> **Wąworków 34**"
 		# The icons will be shown if you enter your username
 		twitter = ""
 		github = ""

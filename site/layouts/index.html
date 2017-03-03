@@ -11,6 +11,8 @@
 		{{ partial "recent-posts" . }}
 	{{ end }}
 
+  {{ partial "map" . }}
+
 	{{ if not .Site.Params.contact.hide }}
 		{{ partial "contact" . }}
 	{{ end }}
