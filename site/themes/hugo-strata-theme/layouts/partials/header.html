@@ -2,7 +2,7 @@
 <header id="header">
 	<!-- <a href="{{ .Site.BaseURL }}" class="image avatar"><img src="{{ .Site.BaseURL }}images/{{ .Site.Params.sidebar.avatar }}" alt="" /></a> -->
 	{{ with .Site.Params.sidebar.bio }}
-		<h1>{{ . | markdownify }}</h1>
+		<h1><a href="/" class="page__title">{{ . | markdownify }}</a></h1>
 	{{ end }}
 
 	{{ with .Site.Menus.main }}
