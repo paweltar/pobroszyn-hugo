@@ -26,7 +26,7 @@ paginate = 10
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**I'm Strata**, a super simple<br> responsive site template freebie<br> crafted by [HTML5 UP](//html5up.net)."
+		bio = "**Schronisko dla Kobiet i Mężczyzn**<br>w Wąworkowie pod Opatowem<br><br>**tel. 888 210 924**<br>**27-500 Opatów**<br>**Wąworków 34**"
 		# The icons will be shown if you enter your username
 		twitter = ""
 		github = ""
@@ -45,13 +45,13 @@ paginate = 10
 
 	[params.about]
 		hide  = false
-		title = "Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
-		content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
+		title = "Działamy od 1996 roku. Pomagamy w trudnych sytuacjach życiowych."
+		content = "Nasze Schronisko prowadzone jest przez Stowarzyszenie Samotnych Rencistów, Emerytów i Inwalidów w Pobroszynie.<br>Schronisko położone jest w spokojnej i malowniczej okolicy, około 5 km. od Opatowa. Teren, na którym zlokalizowane jest schronisko umożliwia prowadzenie ogrodu, jest miejsce dla zwierząt domowych a przede wszystkim daje możliwość wyciszenia poprzez codzienny kontakt z przyrodą.<br>W okolicy schroniska znajdują się szlaki turystyczne biegnące doliną Opatówki, do źródełka św. Wincentego Kadłubka czy średniowiecznej baszty w Tudorowie."
 
 
 	[params.portfolio]
 		hide  = false
-		title = "Recent Work"
+		title = "Galeria Zdjęć"
 
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
@@ -94,15 +94,14 @@ paginate = 10
 
 	[params.contact]
 		hide  = false
-		title = "Get In Touch"
-		content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
+		title = "Skontaktuj się"
+		content = "Zachęcamy do kontaktu telefonicznego ale możesz użyć również poniższego formularza konkaktowego"
 
 		address = [
-			"1234 Somewhere Rd.",
-			"Nashville, TN 00000",
-			"United States"
+			"27-500 Opatów",
+			"Wąworków 34"
 		]
-		phone = "000-000-0000"
+		phone = "888 210 924"
 
 		# Since this template is static, the contact form uses www.formspree.io as a
 		# proxy. The form makes a POST request to their servers to send the actual
@@ -128,11 +127,16 @@ paginate = 10
 
 # Menu links that appear on the left sidebar
 [[menu.main]]
-	name = "Dojazd"
+	name = "Strona Główna"
 	url  = "/"
 	weight = 0
 
 [[menu.main]]
 	name = "O nas"
-	url  = "post/"
+	url  = "about/"
 	weight = 10
+
+[[menu.main]]
+	name = "Częste pytania"
+	url  = "faq/"
+	weight = 15
